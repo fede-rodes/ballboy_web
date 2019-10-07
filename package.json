@@ -1,11 +1,6 @@
 {
   "name": "with-typescript",
   "version": "1.0.0",
-  "engines": {
-    "node": "10.15.3",
-    "npm": "6.4.1",
-    "yarn": "1.12.3"
-  },
   "scripts": {
     "build": "next build",
     "export": "next export",
