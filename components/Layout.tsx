@@ -22,12 +22,12 @@ const Layout: React.FunctionComponent<Props> = ({
           <a>Home</a>
         </Link>{' '}
         |{' '}
-        <Link href="/about">
-          <a>About</a>
+        <Link href="/privacy">
+          <a>Privacy Policy</a>
         </Link>{' '}
         |{' '}
-        <Link href="/initial-props">
-          <a>With Initial Props</a>
+        <Link href="/terms">
+          <a>Terms of Service</a>
         </Link>
       </nav>
     </header>
