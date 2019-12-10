@@ -43,9 +43,7 @@ const colors = {
   lightSkyBlue: '#87CEFA',
   orange: 'orange',
   facebook: '#3B5998',
-
-  blanchedalmond: 'blanchedalmond',
-  papayawhip: 'papayawhip',
+  darkorchid: 'darkorchid',
 };
 
 export default colors;
