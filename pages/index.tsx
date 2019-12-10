@@ -6,9 +6,8 @@ import Spacer from '../components/common/Spacer';
 import MainLayout from '../layouts/Main';
 
 const style = {
-  background: 'tomato',
+  background: 'darkorchid',
   color: 'white',
-  border: '1px solid firebrick',
   cursor: 'pointer',
 };
 
