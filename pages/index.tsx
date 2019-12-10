@@ -26,7 +26,7 @@ const IndexPage: NextPage = () => (
           height="150"
         />
         <Text
-          fontSize={[ 3, 4, 5 ]}
+          fontSize={5}
           style={{
             fontFamily: "'Knewave', cursive",
             textAlign: 'center',
@@ -39,7 +39,7 @@ const IndexPage: NextPage = () => (
       <Flex px="4" flexWrap="wrap" flexDirection="column">
         <Button
           style={style}
-          onClick={() => { window.location.href = "https://ballboy.federodes.now.sh"; }}
+          onClick={() => { window.location.href = "https://app.ballboy.app"; }}
         >
           Go to web app 👉
         </Button>
