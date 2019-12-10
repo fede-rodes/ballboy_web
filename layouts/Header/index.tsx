@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Box } from 'rebass';
+import { Flex } from 'rebass';
 import styled from 'styled-components';
 // import BurgerButton from '../BurgerButton';
 
@@ -8,7 +8,7 @@ import styled from 'styled-components';
 //------------------------------------------------------------------------------
 const Container = styled(Flex)`
   height: 60px;
-  border-bottom: 1px solid ${({ theme }) => theme.colors.shade};
+  /* border-bottom: 1px solid ${({ theme }) => theme.colors.shade}; */
 `;
 //------------------------------------------------------------------------------
 // COMPONENT:
@@ -18,13 +18,13 @@ const Header = () => (
     alignItems="center"
     justifyContent="space-between"
   >
-    <Box px="4">
+    {/* <Box px="4">
       <img
         src="/static/logo.png"
         alt="placeholder"
         height="35"
       />
-    </Box>
+    </Box> */}
     {/* <Box>
       <BurgerButton />
     </Box> */}

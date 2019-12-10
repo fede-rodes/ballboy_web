@@ -1,9 +1,14 @@
 import * as React from 'react'
 import Link from 'next/link'
-import Layout from '../components/Layout'
+import MainLayout from '../layouts/Main'
 
 const TermsPage: React.FunctionComponent = () => (
-  <Layout title="Terms of Service | Next.js + TypeScript Example">
+  <MainLayout title="Terms of Service">
+    <p>
+      <Link href="/">
+        <a>Go home</a>
+      </Link>
+    </p>
     <h1>Terms and conditions</h1>
     <p>Last updated: June 01, 2018</p>
 
@@ -221,12 +226,7 @@ const TermsPage: React.FunctionComponent = () => (
     <p>
         If you have any questions about these Terms, please contact us.
     </p>
-    <p>
-      <Link href="/">
-        <a>Go home</a>
-      </Link>
-    </p>
-  </Layout>
+  </MainLayout>
 )
 
 export default TermsPage
