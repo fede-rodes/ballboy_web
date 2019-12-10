@@ -1,9 +1,14 @@
 import * as React from 'react'
 import Link from 'next/link'
-import Layout from '../components/Layout'
+import MainLayout from '../layouts/Main'
 
 const PrivacyPage: React.FunctionComponent = () => (
-  <Layout title="Privacy Policy | Next.js + TypeScript Example">
+  <MainLayout title="Privacy Policy">
+    <p>
+      <Link href="/">
+        <a>Go home</a>
+      </Link>
+    </p>
     <h1>Privacy Policy</h1>
     <p>Last updated: June 01, 2018</p>
     <p>
@@ -114,12 +119,7 @@ const PrivacyPage: React.FunctionComponent = () => (
         If you have any questions or suggestions about our Privacy
         Policy, do not hesitate to contact us.
     </p>
-    <p>
-      <Link href="/">
-        <a>Go home</a>
-      </Link>
-    </p>
-  </Layout>
+  </MainLayout>
 )
 
 export default PrivacyPage
