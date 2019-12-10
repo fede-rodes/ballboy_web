@@ -8,7 +8,8 @@ import Footer from '../Footer';
 const Container = styled(Flex)`
   min-height: 100vh;
   width: 100%;
-  background-color: ${({ theme }) => theme.colors.papayawhip}
+  background-color: ${({ theme }) => theme.colors.papayawhip};
+  font-family: 'Ubuntu', sans-serif;
 `;
 
 type Props = {
