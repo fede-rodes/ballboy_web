@@ -5,6 +5,13 @@ import { Flex, Box, Button, Text } from 'rebass';
 import Spacer from '../components/common/Spacer';
 import MainLayout from '../layouts/Main';
 
+const style = {
+  background: 'tomato',
+  color: 'white',
+  border: '1px solid firebrick',
+  cursor: 'pointer',
+};
+
 const IndexPage: NextPage = () => (
   <MainLayout title="Ballboy">
     <Flex
@@ -32,20 +39,14 @@ const IndexPage: NextPage = () => (
       <Spacer size="XXXL" />
       <Flex px="4" flexWrap="wrap" flexDirection="column">
         <Button
-          style={{
-            background: 'tomato',
-            color: 'black',
-          }}
+          style={style}
           onClick={() => { window.location.href = "https://ballboy.federodes.now.sh"; }}
         >
           Go to web app 👉
         </Button>
         <Spacer size="L" />
         <Button
-          style={{
-            background: 'tomato',
-            color: 'black',
-          }}
+          style={style}
           onClick={() => { window.location.href = "https://play.google.com/apps/testing/app.ballboy.android"; }}
         >
           Try the Android app📱
