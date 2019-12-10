@@ -1,8 +1,9 @@
 import * as React from 'react'
 // import Link from 'next/link'
 import { NextPage } from 'next'
-import { Flex, Box, Button } from 'rebass';
-import MainLayout from '../layouts/Main'
+import { Flex, Box, Button, Text } from 'rebass';
+import Spacer from '../components/common/Spacer';
+import MainLayout from '../layouts/Main';
 
 const IndexPage: NextPage = () => (
   <MainLayout title="Ballboy">
@@ -18,11 +19,19 @@ const IndexPage: NextPage = () => (
           alt="placeholder"
           height="150"
         />
+        <Text
+          fontSize={[ 3, 4, 5 ]}
+          style={{
+            fontFamily: "'Knewave', cursive",
+            textAlign: 'center',
+          }}
+        >
+          Ballboy
+        </Text>
       </Box>
-      <Flex px="4">
+      <Spacer size="XXXL" />
+      <Flex px="4" flexWrap="wrap" flexDirection="column">
         <Button
-          variant='primary'
-          mr={2}
           style={{
             background: 'tomato',
             color: 'black',
@@ -31,10 +40,8 @@ const IndexPage: NextPage = () => (
         >
           Go to web app 👉
         </Button>
-
+        <Spacer size="L" />
         <Button
-          variant='primary'
-          mr={2}
           style={{
             background: 'tomato',
             color: 'black',
