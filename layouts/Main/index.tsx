@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import { Flex, Box } from 'rebass';
+import { Flex } from 'rebass';
 import styled from 'styled-components';
 // import Header from '../Header';
 import Footer from '../Footer';
@@ -27,9 +27,9 @@ const Main: React.FunctionComponent<Props> = ({
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     {/* <Header /> */}
-    <Box flex="1" bg="concrete">
+    <Flex flex="1" flexDirection="column" px="4">
       {children}
-    </Box>
+    </Flex>
     <Footer />
   </Container>
 );
