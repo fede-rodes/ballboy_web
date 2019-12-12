@@ -8,11 +8,8 @@ const Container = styled(Flex)`
 `;
 
 const Footer = () => (
-  <Container
-    justifyContent="center"
-    bg="dusk"
-  >
-    <Box p="2">
+  <Container justifyContent="center">
+    <Box p="2" pb="4">
       <Link href="/">
         <a>Home</a>
       </Link>
